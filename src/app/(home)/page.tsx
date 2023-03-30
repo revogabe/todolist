@@ -1,11 +1,9 @@
-import Link from 'next/link'
+import { ListView } from '@/components/listview'
 
 export default function Home() {
   return (
-    <main>
-      <Link href="/favorites">
-        <h1>Home</h1>
-      </Link>
+    <main className="max-w-2xl mx-auto w-full h-screen flex mt-52 items-start justify-center">
+      <ListView />
     </main>
   )
 }
